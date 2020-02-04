@@ -55,7 +55,7 @@ Se não, faça algo parecido com esse comando:
 ```
 python3 construtor_html.py
 Insira o caminho do seu arquivo CSV
-p/home/lima/Desktop/pagamentos_sample.csv       
+/home/lima/Desktop/pagamentos_sample.csv       
 ```
 O programa vai executar e gerar um arquivo html na mesma pasta que você salvou os .py
 
