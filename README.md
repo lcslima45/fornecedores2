@@ -74,4 +74,4 @@ Ano-Mes <br>
 
 Em cada chave do dicionário são salvos em uma lista as linhas do arquivo CSV que pertencem aquele mês, cada linha é um array com quatro posições, respectivamente: empresa, fornecedor, data, pagamento.
 
-Uma vez que todos as linhas estão associdas com as suas respectivas chaves, podemos procurar o valor máximo de soma de pagamentos em cada mês. Para isso utilizaremos outro dicionário chamado soma_fornecedores que para cada mês vai guardar as somas dos fornecedores que foram pagos para aquele período de tempo. Após o armazenamento das somas, decidimos quem são os fornecedores com o valor máximo e salvamos no dicionário fornecedores_pagamento_maximo.
+Uma vez que todos as linhas estão associdas com as suas respectivas chaves, podemos procurar o valor máximo de soma de pagamentos em cada mês. Para isso utilizaremos outro dicionário chamado soma_fornecedores que para cada chave_fornecedor vai guardar as somas dos fornecedores que foram pagos para aquele período de tempo. Após o armazenamento das somas, decidimos quem são os fornecedores com o valor máximo daquele mês e salvamos no dicionário fornecedores_pagamento_maximo.
